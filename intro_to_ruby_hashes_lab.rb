@@ -40,7 +40,7 @@ def monopoly_with_third_tier
 
   return this_hash
 
-  
+
 
 
   return new_hash

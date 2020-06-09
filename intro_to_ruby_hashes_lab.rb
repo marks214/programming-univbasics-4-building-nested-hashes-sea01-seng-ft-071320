@@ -28,6 +28,18 @@ def monopoly_with_third_tier
   # complexity.
   this_hash = monopoly_with_second_tier
 
+  this_hash[:railroads][:rent_in_dollars][:one_piece_owned] = 25
+  this_hash[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
+  this_hash[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
+  this_hash[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
+
+  this_hash[:railroads][:names][:reading_railroad] = {}
+  this_hash[:railroads][:names][:pennsylvania_railroad] = {}
+  this_hash[:railroads][:names][:b_and_o_railroad] = {}
+  this_hash[:railroads][:names][:shortline_railroad] = {}
+
+  return this_hash
+
   
 
 

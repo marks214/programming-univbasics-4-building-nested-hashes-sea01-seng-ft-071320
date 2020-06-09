@@ -14,8 +14,8 @@ def monopoly_with_second_tier
   this_hash = base_hash
   #puts this_hash
 
-  this_hash[:railroads][:pieces] = 4
-  return this_hash
+  return this_hash[:railroads][:pieces] = 4
+  #return this_hash
 
 #  new_hash = {
 #    railroads: {

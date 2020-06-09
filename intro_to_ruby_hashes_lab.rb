@@ -53,4 +53,6 @@ def monopoly_with_fourth_tier
   this_hash[:railroads][:names][:b_and_o_railroad][:mortgage_value] = 400
   this_hash[:railroads][:names][:shortline_railroad][:mortgage_value] = 800
 
+  return this_hash
+
 end

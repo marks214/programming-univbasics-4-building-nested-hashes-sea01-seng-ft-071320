@@ -20,6 +20,7 @@ describe "We can create complex, nested Hashes by implementing four methods:" do
   describe "the monopoly_with_second_tier method" do
     describe "builds on the hash returned by base_hash, updating the nested :railroads hash so that it includes" do
       it "a key called :pieces set to 4" do
+        puts monopoly_with_second_tier
         expect(monopoly_with_second_tier[:railroads].has_key?(:pieces)).to(be_truthy, "Make sure the nested :railroads hash has a key called :pieces")
         expect(monopoly_with_second_tier[:railroads][:pieces]).to(eq(4), "Make sure the nested hash :railroads has a key called :pieces with a value of 4")
       end

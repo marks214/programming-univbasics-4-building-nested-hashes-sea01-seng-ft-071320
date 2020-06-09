@@ -39,12 +39,6 @@ def monopoly_with_third_tier
   this_hash[:railroads][:names][:shortline_railroad] = {}
 
   return this_hash
-
-
-
-
-  return new_hash
-
 end
 
 def monopoly_with_fourth_tier
